@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+/* Navbar section  */
+
+.navbar {
+    height: 60px;
+    /* border: 2px solid red; */
+    background-color: #0f1111;
+    color: white;
+    justify-content: space-evenly;
+    
+}
+
+.nav-logo {
+    height: 50px;
+    width: 113px;
+}
+
+.logo {
+    background-image: url(images/amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+/* Box 2 */
+
+.add-first {
+    color: #cccccc;
+    font-size: .85rem;
+    margin-left: 15px;
+}
+.add-second {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+/* Box 3 */
+
+.nav-search {
+    background-color: red;
+    width:1000px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+
+.search-select {
+    border-radius: 4px 0 0 4px;
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+.search-input {
+    width: 100%;
+    border: none;
+    padding: 0 10px;
+}
+.search-icon {
+    width: 50px;
+    text-align: center;
+    border: none;
+    font-size: 1.3rem;
+    background-color: #febd6a;
+    border-radius: 0 4px 4px 0;
+    color: black;
+}
+
+/* Box 4  */
+
+.lang-set {
+    height: 40px;
+    /* border: pink solid; */
+
+}
+
+.lang-options {
+    
+    font-size: 1rem;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: 900;
+    text-align: end;
+    /* border: white solid; */
+}
+
+/* Box 5  */
+
+.signin-first {
+    /* color: #cccccc; */
+    font-size: .85rem;
+}
+
+.signin-second {
+    font-weight: 700;
+}
+
+/* Box 6  */
+
+.orders-first {
+    font-size: .85rem;
+}
+.orders-second {
+    font-weight: 700;
+}
+
+/* Box 7  */
+
+.cart {
+    height: 40px;
+    width: 40px;
+    /* background-color: red; */
+
+}
+
+.cart-icon {
+   font-size: 2rem;
+   text-align: center;
+}
+
+
+
+/* Utility Section  */
+
+.border {
+    border: 1.5px solid transparent;
+}
+.border:hover {
+    border: 1.5px solid white;
+}
+.d-flex {
+    display: flex;
+}
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+@media  screen and (max-width:1500px) {
+    .nav-search {
+
+        width: 650px;
+
+    }
+
+}
