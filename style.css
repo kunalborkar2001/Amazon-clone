@@ -12,7 +12,7 @@
     /* border: 2px solid red; */
     background-color: #0f1111;
     color: white;
-    justify-content: space-evenly;
+    justify-content:space-around;
     
 }
 
@@ -125,6 +125,102 @@
    text-align: center;
 }
 
+/* sub-navigation section */
+
+/* Box 1  */
+
+.sub-nav {
+    /* border: #0f1111 solid; */
+    height: 39px;
+    padding-left: 11px;
+    background-color: #222f3d;
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+.toggle-icon {
+    font-size: 1.2rem;
+}
+
+/* /////////////////////////////////// */
+/* Hero section  */
+
+.hero-section {
+    background-image: url(images/hero_image.jpg);
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+}
+.hero-msg {
+    background-color: white;
+    height: 40px;
+    width: 95% ;
+    font-size: 0.85rem;
+    margin-bottom: 25px;
+}
+.hero-msg a {
+    color: #007185;
+    
+}
+
+/* Shop section  */
+.shop-section {
+
+    background-color: pink;
+}
+
+.box {
+    /* border: 2px black solid; */
+    height: 400px;
+    width: 25%;
+    margin: 10px;
+    background-color: whitesmoke;
+    padding: 20px;
+
+}
+
+.box img {
+    height: 350px;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.box:hover {
+
+    transform: scale(1.1);
+    transition: all .2s;
+}
+
+
+/* Footer  */
+
+footer {
+    margin-top: 15px;
+
+}
+
+.foot-panal1 {
+    background-color: #37475a;
+    height: 50px;
+    color: white;
+    font-size: 0.9rem;
+}
+.foot-panal2 {
+
+    padding: 0 100px;
+    background-color: #232f3e;
+    height: 500px;
+}
+.foot-box {
+    color: #ffffff;
+    margin: 30px 80px;
+}
+.foot-panal3 {
+    height: 68px;
+    /* border: #007185 solid; */
+    margin-top: 20px;
+
+}
 
 
 /* Utility Section  */
@@ -141,10 +237,46 @@
 .align-center {
     align-items: center;
 }
+.text-center {
+    text-align: center;
+}
 
 .justify-center {
     justify-content: center;
 }
+
+.justify-between {
+    justify-content: space-between;
+
+}
+.white {
+    color: white;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.m-1 {
+    margin: 1rem;
+}
+.ml-1 {
+
+    margin-left: 2px;
+}
+.no-deco {
+    text-decoration: none;
+}
+.align-end {
+    align-items: flex-end;
+}
+.no-bullets {
+    list-style: none;
+}
+.foot-box li {
+    padding: 2px;
+}
+/* Break-points section  */
 
 @media  screen and (max-width:1500px) {
     .nav-search {
